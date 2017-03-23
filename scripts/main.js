@@ -22,10 +22,8 @@
         checkList.addRow.call(checkList, data);
     });
     //console.log(formHandler);
-    formHandler.addInputHandler(Validation.isDecaf);
-    console.log('hello world');
-    //formHandler.addInputHandler(Validation.isCompanyEmail);
-    //console.log('why world');
+    formHandler.decafHandler(Validation.isDecaf);
+    formHandler.addInputHandler(Validation.isCompanyEmail);
 
 
 })(window);
